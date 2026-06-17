@@ -1,307 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Parmeshwar Metkar - Wikipedia</title>
-
-<style>
-/* Reset & Base Styles */
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    font-family: "Linux Libertine", "Georgia", "Times New Roman", serif;
-    background: #f8f9fa;
-    color: #202122;
-    line-height: 1.6;
-}
-
-/* Top Navigation Bar */
-.topbar {
-    background: #fff;
-    border-bottom: 1px solid #a2a9b1;
-    padding: 10px 20px;
-    font-size: 14px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.topbar .logo-placeholder {
-    font-weight: bold;
-    font-family: sans-serif;
-}
-
-/* Page Layout Wrapper */
-.wrapper {
-    display: flex;
-    max-width: 1400px;
-    margin: 0 auto;
-}
-
-/* Sidebar Navigation */
-.sidebar {
-    width: 180px;
-    background: #f6f6f6;
-    border-right: 1px solid #a2a9b1;
-    padding: 15px;
-    font-size: 13px;
-    font-family: sans-serif;
-    flex-shrink: 0;
-}
-
-.sidebar h3 {
-    font-size: 12px;
-    color: #54595d;
-    margin: 20px 0 5px 0;
-    border-bottom: 1px solid #a2a9b1;
-    padding-bottom: 2px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-
-.sidebar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.sidebar ul li {
-    margin-bottom: 6px;
-}
-
-/* Main Content Area */
-.content {
-    flex: 1;
-    padding: 25px;
-    background: #fff;
-    min-height: 100vh;
-}
-
-/* Headings */
-h1 {
-    font-family: "Linux Libertine", serif;
-    font-size: 1.8em;
-    border-bottom: 1px solid #a2a9b1;
-    padding-bottom: 5px;
-    margin-top: 0;
-    font-weight: normal;
-}
-
-h2 {
-    font-family: "Linux Libertine", serif;
-    font-size: 1.5em;
-    font-weight: normal;
-    border-bottom: 1px solid #a2a9b1;
-    margin-top: 30px;
-    padding-bottom: 2px;
-}
-
-/* Content Elements */
-p {
-    margin: 0 0 1em 0;
-    font-family: sans-serif;
-    font-size: 14px;
-}
-
-ul {
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-top: 0;
-    padding-left: 25px;
-}
-
-li {
-    margin-bottom: 4px;
-}
-
-/* Infobox Styles */
-.infobox {
-    float: right;
-    width: 280px;
-    background: #f8f9fa;
-    border: 1px solid #a2a9b1;
-    font-size: 13px;
-    font-family: sans-serif;
-    margin: 0 0 15px 15px;
-    padding: 2px;
-}
-
-.infobox h3 {
-    background: #eaecf0;
-    margin: 0;
-    padding: 8px;
-    text-align: center;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.infobox .image-container {
-    text-align: center;
-    padding: 10px;
-    background: #fff;
-}
-
-.infobox img {
-    max-width: 100%;
-    height: auto;
-    border: 1px solid #a2a9b1;
-}
-
-.infobox table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.infobox td {
-    padding: 6px;
-    vertical-align: top;
-}
-
-.infobox td:first-child {
-    font-weight: bold;
-    width: 35%;
-}
-
-.infobox tr:nth-child(even) {
-    background: #f8f9fa;
-}
-
-/* Typography & Links */
-a {
-    color: #0645ad;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:visited {
-    color: #0b0080;
-}
-
-.clear {
-    clear: both;
-}
-
-.footer-notice {
-    font-family: sans-serif;
-    font-size: 12px;
-    color: #54595d;
-    margin-top: 50px;
-    border-top: 1px solid #a2a9b1;
-    padding-top: 10px;
-}
-
-/* Responsive adjustments for smaller screens */
-@media (max-width: 768px) {
-    .wrapper {
-        flex-direction: column;
-    }
-    .sidebar {
-        width: 100%;
-        border-right: none;
-        border-bottom: 1px solid #a2a9b1;
-        height: auto;
-    }
-    .infobox {
-        float: none;
-        width: 100%;
-        margin: 0 0 20px 0;
-    }
-}
-</style>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TurboWheels Bike Showroom</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header class="topbar">
-    <div class="logo-placeholder">🌐 Wikipedia</div>
-    <div class="small">Personal Page Variant</div>
-</header>
+    <header>
+        <div class="logo">Turbo<span>Wheels</span></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#collection">Collection</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<div class="wrapper">
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Ride Your Dream</h1>
+            <p>Discover the ultimate collection of superbikes, cruisers, and street racers.</p>
+            <a href="#collection" class="btn">Explore Bikes</a>
+        </div>
+    </section>
 
-    <nav class="sidebar">
-        <ul>
-            <li><a href="#">Main page</a></li>
-            <li><a href="#">Contents</a></li>
-            <li><a href="#">Current events</a></li>
-            <li><a href="#">Random article</a></li>
-        </ul>
-
-        <h3>Contribute</h3>
-        <ul>
-            <li><a href="#">Help</a></li>
-            <li><a href="#">Learn to edit</a></li>
-            <li><a href="#">Community portal</a></li>
-        </ul>
-
-        <h3>Tools</h3>
-        <ul>
-            <li><a href="#">What links here</a></li>
-            <li><a href="#">Related changes</a></li>
-            <li><a href="#">Special pages</a></li>
-        </ul>
-    </nav>
-
-    <main class="content">
-
-        <h1>Parmeshwar Metkar</h1>
-
-        <aside class="infobox">
-            <h3>Parmeshwar Metkar</h3>
-            <div class="image-container">
-                <img src="https://uploads.onecompiler.io/435f5wth2/44hfeht9r/WhatsApp%20Image%202026-03-26%20at%2011.01.03%20AM.jpeg" alt="Profile picture of Parmeshwar Metkar">
+    <section id="collection" class="collection">
+        <h2>Our Featured Fleet</h2>
+        <div class="bike-grid">
+            <div class="bike-card">
+                <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=500&auto=format&fit=crop&q=60" alt="Superbike">
+                <h3>Apex Predator 1000cc</h3>
+                <p>Top Speed: 299 km/h | Power: 200 HP</p>
+                <span class="price">$18,500</span>
+                <button class="buy-btn">Book a Test Ride</button>
             </div>
-            <table>
-                <tr><td>Age</td><td>24 years</td></tr>
-                <tr><td>Country</td><td>India 🇮🇳</td></tr>
-                <tr><td>Profession</td><td>Content Creator</td></tr>
-                <tr><td>Focus</td><td>Java, APIs, System Design</td></tr>
-                <tr><td>Platforms</td><td>LinkedIn</td></tr>
-            </table>
-        </aside>
+            <div class="bike-card">
+                <img src="https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=500&auto=format&fit=crop&q=60" alt="Cruiser">
+                <h3>Highway Cruiser V-Twin</h3>
+                <p>Top Speed: 180 km/h | Torque: 150 Nm</p>
+                <span class="price">$22,000</span>
+                <button class="buy-btn">Book a Test Ride</button>
+            </div>
+            <div class="bike-card">
+                <img src="https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?w=500&auto=format&fit=crop&q=60" alt="Street Bike">
+                <h3>Urban Stealth 650</h3>
+                <p>Top Speed: 210 km/h | Weight: 165 kg</p>
+                <span class="price">$8,900</span>
+                <button class="buy-btn">Book a Test Ride</button>
+            </div>
+        </div>
+    </section>
 
-        <p>
-        <b>Parmeshwar Metkar</b> is an Indian content creator and tech enthusiast who specializes in software development ecosystem documentation. He creates structured knowledge representations covering Java programming environments, API lifecycles, backend system design parameters, and strategic network growth metrics.
-        </p>
+    <section id="contact" class="contact">
+        <h2>Visit Our Showroom</h2>
+        <p>Have questions? Fill out the form below or drop by anytime!</p>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" rows="5" placeholder="Which bike are you interested in?" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
 
-        <h2>Early life</h2>
-        <p>
-        Metkar developed an early interest in modern computational systems and application programming logic. This technical background served as the foundation for his transition into cross-platform technical documentation, structural architecture mapping, and open-source knowledge production.
-        </p>
+    <footer>
+        <p>&copy; 2026 TurboWheels Showroom. All rights reserved.</p>
+    </footer>
 
-        <h2>Career</h2>
-        <p>
-        Operating primarily as a technical publisher, Metkar creates systemic documentation structures tailored for both onboarding software engineering personnel and optimizing veteran developer workflows. His publications emphasize simplifying programmatic workflows and reducing cognitive load during technical upskilling.
-        </p>
-
-        <h2>Focus areas</h2>
-        <ul>
-            <li><b>Java Programming Language:</b> Syntax architectures, functional paradigms, and JVM management frameworks.</li>
-            <li><b>Backend Engineering:</b> Server runtime configurations, persistent storage patterns, and relational processing systems.</li>
-            <li><b>API Integration & System Design:</b> Microservices interaction, transactional state routing, and structural design pattern maps.</li>
-            <li><b>Professional Network Scaling:</b> Distribution algorithms and strategic knowledge outreach metrics.</li>
-        </ul>
-
-        <h2>Online presence</h2>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/parmeshwar-metkar-026211254" target="_blank" rel="noopener noreferrer">Parmeshwar Metkar on LinkedIn</a></li>
-        </ul>
-
-        <footer class="footer-notice">
-            This page is a custom-structured profile rendered for educational and portfolio demonstration criteria.
-        </footer>
-
-    </main>
-
-</div>
-
+    <script src="script.js"></script>
 </body>
 </html>
